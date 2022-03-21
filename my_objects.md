@@ -1,15 +1,26 @@
 # Uploading an object
 
-## GLB Format
-
-OBJ format is the easiest because you only have to upload the file and they will be available for all platforms.
-
+## Cloud content
 - Go to the [object list page](https://stardust.neogoma.com/object_list)
 - Once you're on the object upload page select [create a new object](https://stardust.neogoma.com/add_bundle)
-- Select the option "Upload an OBJ file"
+
+### GLB Format
+
+GLB format is the easiest because you only have to upload the file and they will be available for all platforms. These file format can also include complex animations. You can find some GLB files samples [here](https://github.com/KhronosGroup/glTF-Sample-Models).
+
+- Select the option "Upload a 3D model"
 - Fill in the name
-- Upload the GLB file (max size 10 mb).
-- Click on "Create object"
+- Select the GLB file (max size 80 mb).
+- Click on "Create object".
+
+### Image Format
+
+We had a lot of request to support different images for different usages (floor plans, NFT, arts..). We decided that the most flexible way for users to use pictures in our app would be to allow people to directly link from external sources ([Imgur](https://imgur.com/), [Imgbb](https://imgbb.com/), user own server...). 
+
+- Select the option "Upload a picture"
+- Fill in the name
+- Fill in the picture URL.
+- Click on "Create object".
 
 ## Local content
 
